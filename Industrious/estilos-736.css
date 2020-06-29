@@ -1,0 +1,90 @@
+/********** TABLET **************/
+@media (min-width: 736px) {
+
+/************ BANNER VIDEO ***********/
+
+	.banner {
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		height: 600px;
+	}
+	.titulo {
+		text-align: center;
+		padding:  50px;
+	}
+	.titulo h1 {
+		font-size: 60px;
+	}
+	.titulo p {
+		font-size: 24px;
+		line-height: 35px;
+	}
+
+/******** SECCION MAIN ********/
+
+	.main h2 {
+		font-size: 36px;
+	}
+	.main p {
+		padding: 0px 50px;
+	}
+	.caja {
+		width: 310px;
+	}
+	.caja h2 {
+		font-size: 20px;
+	}
+	.caja p {
+		padding: 0px;
+	}
+	.caja .fas, .caja .far {
+		font-size: 70px;
+	}
+	.articulos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+/************ FOTO CENTRAL ***************/
+
+	.central h2 {
+		font-size: 36px;
+		padding-top: 20px;
+	}
+
+/********** TESTIMONIALS **************/
+
+	.testimonials h2 {
+		font-size: 36px;
+	}
+	.boxes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px;
+	}
+	.box {
+		width: 48%;
+	}
+	.box p {
+		
+		padding-left: 0px 20px;
+	}
+	.box img {
+		width: 100px;
+	}
+
+/************ CREDITS ************/
+
+	.links {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	.cred2 {
+		padding-right: 50px;
+	}
+}
